@@ -35,5 +35,3 @@ for (int i = 0; i < lines.Length; i++) // インデックスで回す
 Console.WriteLine("=== 終了 ==="); // 終了メッセージ
 
 
-
-

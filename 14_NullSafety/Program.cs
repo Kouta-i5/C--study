@@ -30,5 +30,3 @@ class Person // null 安全サンプル用のクラス
 }
 
 
-
-

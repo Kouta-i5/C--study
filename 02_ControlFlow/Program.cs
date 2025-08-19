@@ -57,5 +57,3 @@ foreach (var fruit in fruits) // 配列の各要素を順に取り出す
 Console.WriteLine("=== 終了 ==="); // デモの終了メッセージ
 
 
-
-

@@ -63,5 +63,3 @@ class BusinessException : Exception // Exception を継承
 }
 
 
-
-

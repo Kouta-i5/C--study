@@ -38,5 +38,3 @@ static void Swap<T>(ref T left, ref T right) // 任意の型 T の 2 値を入�
 }
 
 
-
-

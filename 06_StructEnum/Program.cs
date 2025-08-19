@@ -40,5 +40,3 @@ struct Point // 2D 座標を表す
 }
 
 
-
-

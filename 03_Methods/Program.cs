@@ -71,5 +71,3 @@ static int SumAll(params int[] numbers) // 可変長引数を配列として受�
 }
 
 
-
-

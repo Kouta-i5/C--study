@@ -54,5 +54,3 @@ Console.WriteLine(stack.Peek()); // 次の要素（X）を参照
 Console.WriteLine("=== 終了 ==="); // 終了メッセージ
 
 
-
-

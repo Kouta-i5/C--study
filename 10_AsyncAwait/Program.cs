@@ -28,5 +28,3 @@ static async Task<int> ComputeAsync(int x) // int を返す非同期メソッド
 }
 
 
-
-

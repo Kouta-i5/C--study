@@ -36,5 +36,3 @@ Console.WriteLine("偶数の二乗（降順）: " + string.Join(", ", query)); /
 Console.WriteLine("=== 終了 ==="); // 終了メッセージ
 
 
-
-

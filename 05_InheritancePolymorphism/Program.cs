@@ -72,5 +72,3 @@ class Car : IMovable // 車は動かせる
 }
 
 
-
-
