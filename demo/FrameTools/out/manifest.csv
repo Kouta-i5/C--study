@@ -1,0 +1,5 @@
+﻿video_path,frame_path,sec,mm_ss_mmm,sharp_score,mask_json,filters_json,params_json
+"../data/sample_clip_out_of_body_detection.mp4","out/frame_00_08_500.jpg",8.5,"frame_00_08_500",426.796,"{}","[]","{""fps"":2,""sharpTh"":180}"
+"../data/sample_clip_out_of_body_detection.mp4","out/frame_00_09_000.jpg",9,"frame_00_09_000",370.108,"{}","[]","{""fps"":2,""sharpTh"":180}"
+"../data/sample_clip_out_of_body_detection.mp4","out/frame_00_09_500.jpg",9.5,"frame_00_09_500",460.968,"{}","[]","{""fps"":2,""sharpTh"":180}"
+"../data/sample_clip_out_of_body_detection.mp4","out/frame_00_10_000.jpg",10,"frame_00_10_000",436.303,"{}","[]","{""fps"":2,""sharpTh"":180}"
