@@ -43,11 +43,11 @@ Console.WriteLine($"Full Name: {fullName}"); // 補間で整形して表示
 Console.WriteLine(string.Format("{0} は {1} 歳です。", name, age)); // Format メソッドでも可
 
 // 型変換（キャストと変換メソッド）
-int fromDouble = (int)height; // 明示的キャスト：小数点以下は切り捨て
+int fromDouble = (int)height; // (int)とは整数値に変換する明示的キャスト：小数点以下は切り捨て
 Console.WriteLine($"(int)height = {fromDouble}"); // キャスト結果を表示
-string ageText = age.ToString(); // 数値 → 文字列へ変換
+string ageText = age.ToString(); // 数値 → 文字列へ変換,ToString()は数値を文字列に変換するメソッド
 Console.WriteLine($"age.ToString() = {ageText}"); // 変換結果の表示
-if (int.TryParse("42", out int parsed)) // 文字列 → 数値（安全な変換、失敗しないか判定）
+if (int.TryParse("42", out int parsed)) // 文字列 → 数値（安全な変換、失敗しないか判定）,TryParseは文字列を数値に変換するメソッド,out int parsedはoutは出力パラメーターとして、parsedは変換した数値を格納する変数
 {
     Console.WriteLine($"TryParse 成功: {parsed}"); // 成功した場合の値を表示
 }

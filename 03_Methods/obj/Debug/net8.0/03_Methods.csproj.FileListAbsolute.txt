@@ -1,0 +1,5 @@
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.AssemblyInfoInputs.cache
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.AssemblyInfo.cs
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.csproj.CoreCompileInputs.cache
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.sourcelink.json

@@ -1,0 +1,15 @@
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/bin/Debug/net8.0/01_Basics
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/bin/Debug/net8.0/01_Basics.deps.json
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/bin/Debug/net8.0/01_Basics.runtimeconfig.json
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/bin/Debug/net8.0/01_Basics.dll
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/bin/Debug/net8.0/01_Basics.pdb
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/obj/Debug/net8.0/01_Basics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/obj/Debug/net8.0/01_Basics.AssemblyInfoInputs.cache
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/obj/Debug/net8.0/01_Basics.AssemblyInfo.cs
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/obj/Debug/net8.0/01_Basics.csproj.CoreCompileInputs.cache
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/obj/Debug/net8.0/01_Basics.sourcelink.json
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/obj/Debug/net8.0/01_Basics.dll
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/obj/Debug/net8.0/refint/01_Basics.dll
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/obj/Debug/net8.0/01_Basics.pdb
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/obj/Debug/net8.0/01_Basics.genruntimeconfig.cache
+/Users/kouta_i5/Github/Personal/C#-study/01_Basics/obj/Debug/net8.0/ref/01_Basics.dll
