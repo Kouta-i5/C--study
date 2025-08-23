@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrameTools.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82e579401ae259d6f4869d69113ba599bf86fe7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bb282595faf1f6af1b6b40aebf7437e894e3771")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrameTools.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrameTools.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

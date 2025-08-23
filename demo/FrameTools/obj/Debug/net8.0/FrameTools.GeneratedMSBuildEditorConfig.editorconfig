@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FrameTools
-build_property.ProjectDir = /Users/kouta_i5/Github/Personal/endoscopy-tool-logic/FrameTools/
+build_property.ProjectDir = /Users/kouta_i5/Github/Personal/C#-study/demo/FrameTools/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
