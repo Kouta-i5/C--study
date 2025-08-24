@@ -8,8 +8,11 @@ int[] numbers = { 1, 2, 3 }; // 要素数 3 の int 配列
 Console.WriteLine($"配列の長さ: {numbers.Length}"); // 長さを表示
 Console.WriteLine($"numbers[1] = {numbers[1]}"); // インデックスアクセス
 
-// List<T> の例（可変長の動的配列）
+// List<T> の例（可変長配列）(可変長とは、要素数を動的に変えることができるということ)
+//List<データ型> 変数名　= new List<データ型>();
+//左のList<データ型>はListクラスであることの宣言、右のList<データ型>はListクラスのインスタンスを作成
 List<string> list = new List<string>(); // 空のリストを作成
+//.Addは要素を追加するメソッド、その他にも.Removeは要素を削除するメソッド、.Countは要素数を取得するメソッド、.Clearは要素を全て削除するメソッドなどがある
 list.Add("apple"); // 要素を追加
 list.Add("banana"); // 追加
 list.Add("cherry"); // 追加

@@ -7,26 +7,33 @@ int added = Add(2, 3); // 2 と 3 を足し算し、結果を受け取る
 Console.WriteLine($"Add(2, 3) = {added}"); // 結果を表示
 
 // out パラメータの例（TryParse に似た作り）
+//TryDivideはbooleanを返す。またresultに結果を格納
 bool ok = TryDivide(10, 3, out double result); // 10 / 3 を試し、結果を out で受ける
 Console.WriteLine($"TryDivide 成功: {ok}, 結果: {result}"); // 成功フラグと結果の表示
 
 // ref パラメータの例（値を入れ替える）
+// refとは参照するということ
 int x = 1; // x を 1 に設定
 int y = 2; // y を 2 に設定
 Swap(ref x, ref y); // x と y の値を入れ替える
 Console.WriteLine($"Swap 後: x={x}, y={y}"); // 入れ替え結果を表示
 
-// オーバーロードの例（同名だが引数が異なるメソッド）
-Console.WriteLine(Describe(123)); // int 引数の Describe を呼ぶ
-Console.WriteLine(Describe("hello")); // string 引数の Describe を呼ぶ
+// ローカル関数はオーバーロード不可のため名前を分けてデモ
+//ローカル関数はメソッド内で定義された関数で、メソッド内でのみ使用できる
+//Describeはローカル関数で、DescribeStringはローカル関数ではない
+Console.WriteLine(Describe(123)); // int 用
+Console.WriteLine(DescribeString("hello")); // string 用
 
 // 可変長引数（params）の例
+// 可変長引数とは、引数の数を可変にすることができる引数で、paramsキーワードを使用する
 int total = SumAll(1, 2, 3, 4); // 複数の引数を渡して合計
 Console.WriteLine($"SumAll = {total}"); // 合計を表示
 
 Console.WriteLine("=== 終了 ==="); // デモの終了
 
 // ここから下はメソッド定義（トップレベル文の後ろに static メソッドを置ける）
+//トップレベル文とは、プログラムの最初に実行される文で、staticメソッドを定義することができる
+//staticメソッドとは、クラスのインスタンスを作成せずに呼び出すことができるメソッドで、クラスのメンバーとして定義される
 static int Add(int left, int right) // 2 つの int を受け取り、和を返す
 {
     return left + right; // 左右を足して返す
@@ -43,6 +50,8 @@ static bool TryDivide(double numerator, double denominator, out double quotient)
     return true; // 成功を示す
 }
 
+//refとは参照するということ
+//voidとは何も返さないということ
 static void Swap(ref int left, ref int right) // 2 つの値を入れ替える
 {
     int temp = left; // 一時退避
@@ -55,7 +64,7 @@ static string Describe(int value) // int を説明するオーバーロード
     return $"int 値: {value}"; // 文字列で返す
 }
 
-static string Describe(string text) // string を説明するオーバーロード
+static string DescribeString(string text) // string 用の説明
 {
     return $"string 値: {text}"; // 文字列で返す
 }

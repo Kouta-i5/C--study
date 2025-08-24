@@ -13,9 +13,15 @@ string name = "Taro"; // 文字列を代入
 
 // 暗黙の型推論（var）
 var message = "Hello"; // 右辺から型が推論され、これは string 型になる
+//varは型推論を行うためのキーワード
+//Random dice = new Random(); // 乱数を生成するためのインスタンスを作成
+var dice = new Random(); // 乱数を生成するためのインスタンスを作成
 
 // 定数（再代入不可）
 const double Pi = 3.1415926535; // 円周率を定数として定義
+//constは定数を定義するためのキーワード、constantの略
+const int NUM = 10;
+int [] array = new int[NUM]{1,2,3,4,5,6,7,8,9,10};//配列の宣言と同時に初期化
 
 // 算術演算
 int a = 10; // 変数 a に 10

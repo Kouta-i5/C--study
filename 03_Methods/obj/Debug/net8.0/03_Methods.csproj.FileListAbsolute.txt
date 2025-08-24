@@ -3,3 +3,13 @@
 /Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.AssemblyInfo.cs
 /Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.csproj.CoreCompileInputs.cache
 /Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.sourcelink.json
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/bin/Debug/net8.0/03_Methods
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/bin/Debug/net8.0/03_Methods.deps.json
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/bin/Debug/net8.0/03_Methods.runtimeconfig.json
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/bin/Debug/net8.0/03_Methods.dll
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/bin/Debug/net8.0/03_Methods.pdb
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.dll
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/refint/03_Methods.dll
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.pdb
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/03_Methods.genruntimeconfig.cache
+/Users/kouta_i5/Github/Personal/C#-study/03_Methods/obj/Debug/net8.0/ref/03_Methods.dll

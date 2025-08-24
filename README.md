@@ -24,6 +24,8 @@
 12. [12_DelegatesEventsLambdas.cs](12_DelegatesEventsLambdas.cs): デリゲート/イベント/ラムダ式（Action/Func含む）
 13. [13_Generics.cs](13_Generics.cs): ジェネリクス（型パラメータ、型制約）
 14. [14_NullSafety.cs](14_NullSafety.cs): Null安全（nullable参照型、null 条件演算子・合体演算子）
+15. [15_CommonBuiltins/Program.cs](15_CommonBuiltins/Program.cs): よく使う組み込み（string/Math/DateTime/TimeSpan/Random/Guid/Convert/Path/Environment/LINQ）
+16. [16_Modifiers/Program.cs](16_Modifiers/Program.cs): 修飾子（アクセス修飾子、static/const/readonly、abstract/virtual/override/sealed、ref/out/in など）
 
 今後、record/tuple/パターンマッチング、DI、テスト、設計原則（SOLID）、拡張メソッド、演算子オーバーロード、Span/Memory、非同期ストリーム、Source Generator なども追加拡張できます。
 

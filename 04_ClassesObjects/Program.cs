@@ -3,6 +3,7 @@ using System; // Console などの基本 API を使う
 Console.WriteLine("=== クラスとオブジェクトのデモ ==="); // 見出しの表示
 
 // クラスからインスタンスを生成して使う例
+//左側のPersonはクラス名(変数の型)、右側のPersonはインスタンス化するクラスの名前
 Person p = new Person("Taro", 30); // コンストラクタで名前と年齢を設定
 Console.WriteLine($"名前: {p.Name}, 年齢: {p.Age}"); // プロパティの参照
 p.HaveBirthday(); // 誕生日メソッドを呼び年齢を 1 増やす

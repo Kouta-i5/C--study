@@ -54,9 +54,26 @@ while (count > 0) // 条件が true の間繰り返す
 
 // foreach の例（配列を列挙）
 //string [] 変数名　= { 要素1, 要素2, 要素3 }
-//for (var 変数名 in 配列名) { 配列の各要素を順に取り出す }
+//foreachはfor文とは少し違う。for文はインデックスを使って配列の要素を取り出すが、foreachは配列の要素を順に取り出すことができる
+//foreach (var 変数名(イテレータ) in 配列名)
 //var は型推論を行うためのキーワード,var は変数の型を自動的に推論するためのキーワード
-string[] fruits = { "apple", "banana", "cherry" }; // 3 要素の文字列配列
+//foreachは配列の各要素を順に取り出すためのループ文
+// 初めに配列を宣言してから要素を代入する方法
+
+string [] subjects; // 配列を宣言,null参照,nullは何も参照していないことを表す、出力すると0が出る。
+subjects = new string[3]; // 配列を初期化(newはインスタンスを作成してメモリを確保するためのキーワード)→ヒープメモリ
+subjects[0] = "国語"; // 0番目の要素に"apple"を代入
+subjects[1] = "数学"; // 1番目の要素に"banana"を代入
+subjects[2] = "英語"; // 2番目の要素に"cherry"を代入
+
+
+string [] items = new string[3]; // 3 要素の文字列配列を宣言
+items[0] = "apple"; // 0番目の要素に"apple"を代入
+items[1] = "banana"; // 1番目の要素に"banana"を代入
+items[2] = "cherry"; // 2番目の要素に"cherry"を代入
+
+// 配列を宣言とともに要素を入れて初期化する。
+string[] fruits = { "apple", "banana", "cherry" }; // 3 要素の文字列配列で初期化して要素を代入
 foreach (var fruit in fruits) // 配列の各要素を順に取り出す
 {
     Console.WriteLine($"fruit: {fruit}"); // 要素を表示
