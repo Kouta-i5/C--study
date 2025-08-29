@@ -14,6 +14,7 @@ namespace WinFormsApp1
         /// <param name="disposing">マネージド リソースを破棄する場合は true。そうでない場合は false。</param>
         protected override void Dispose(bool disposing)
         {
+            //disposingはマネージド リソースを破棄するかどうかを表すパラメーター
             if (disposing && (components != null))
             {
                 components.Dispose();
